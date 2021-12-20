@@ -1,0 +1,7 @@
+## displays Hello World!
+#set( $who = "World!") 
+$hello 
+
+#define( $hello ) 
+Hello $who 
+#end
