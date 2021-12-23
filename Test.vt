@@ -1,7 +1,7 @@
 ## Double Hash (##) is used to create Comments.
 ## Use Velocity command '#set' to set the value of a $variable.
 ## Example: 
-#set($ref = arg)
+#set($ref = 9)
 
 
 ##
@@ -31,4 +31,4 @@
 ## foreach($instance in $list)
 ## ping  $hosts
 
-#end
+##end
