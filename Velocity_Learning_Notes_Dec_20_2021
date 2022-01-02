@@ -1,0 +1,19 @@
+# Velocity Temlate Launguage (VTL)
+
+## Use Guide Contents:  https://velocity.apache.org/engine/1.7/user-guide.html#references
+
+## https://velocity.apache.org/engine/1.7/user-guide.html#hello-velocity-world
+
+## References:  
+-----------
+There are three types of references in the VTL:
+
+## Variables: = $ followed by (a..z, A..Z) - the rest can be any of these: (a..z,A..Z), (0..9), ("-"), ("_")
+## Examples:  $foo  $mudSlinger, $mud-slinger, $mud_slinger, $mudslinger3
+
+## Properties: =$ followed a VTL Identifier, followed by a dot character (".") and another VTL Identifier. 
+	
+## Examples:  $customer.Address, $purchase.Total
+
+## Methods
+## Directive: #set( $foo = "bar" )
